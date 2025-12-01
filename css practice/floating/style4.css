@@ -1,0 +1,11 @@
+
+img {
+    float: left;
+    margin-right: 500px;
+    width: 400px;
+  }
+  
+  p.clear {
+    clear: both;
+  }
+  
