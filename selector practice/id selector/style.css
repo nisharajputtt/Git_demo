@@ -1,0 +1,7 @@
+
+/* Expected Output:
+Heading centered and purple */
+ #main-title{
+    text-align: center;
+    color: purple;
+ }
