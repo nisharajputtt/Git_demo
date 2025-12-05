@@ -1,0 +1,7 @@
+
+/* Expected Output:
+All paragraphs after <h3> should have a light gray background. */
+
+h3~p{
+    background-color: hotpink;
+}
