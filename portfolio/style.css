@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6fb;
+}
+
+header {
+  background: #0a3d62;
+  padding: 15px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fbc531;
+}
+
+.hero {
+  padding: 70px 8%;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #0a3d62;
+  font-size: 36px;
+}
+
+section {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+section h2 {
+  color: #0a3d62;
+  margin-bottom: 20px;
+}
+
+.skills-container span {
+  display: inline-block;
+  background: #dcdde1;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0a3d62;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
